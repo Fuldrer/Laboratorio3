@@ -1,7 +1,7 @@
 const tileData = [
     {
-      img: './images/My-Roommate-is-a-Cat.jpg',
-      title: 'Breakfast',
+      img: '/home/carlos/Desktop/Vanguardia/lab3-2/src/images/My-Roommate-is-a-Cat.jpg',
+      title: 'My-Roommate-is-a-Cat',
       author: 'jill111',
       cols: 2,
       featured: true,

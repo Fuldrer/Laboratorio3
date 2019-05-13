@@ -18,29 +18,11 @@ function TextButtons(props) {
     <div>
       <Button className={classes.button}>Default</Button>
       <Button color="primary" className={classes.button}>
-        Primary
+        Boton
       </Button>
       <Button color="secondary" className={classes.button}>
-        Secondary
+        Boton2
       </Button>
-      <Button disabled className={classes.button}>
-        Disabled
-      </Button>
-      <Button href="#text-buttons" className={classes.button}>
-        Link
-      </Button>
-      <input
-        accept="image/*"
-        className={classes.input}
-        id="text-button-file"
-        multiple
-        type="file"
-      />
-      <label htmlFor="text-button-file">
-        <Button component="span" className={classes.button}>
-          Upload
-        </Button>
-      </label>
     </div>
   );
 }

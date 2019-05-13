@@ -9,6 +9,7 @@ import Switch from './SControl'
 import Grid from './Grid'
 import Dialogs from './Dialogs'
 import Cards from './Cards'
+import Boton from './Button'
 
 function TabContainer(props) {
   return (
@@ -56,7 +57,7 @@ class SimpleTabs extends React.Component {
         {value === 0 && <TabContainer><Switch></Switch></TabContainer>}
         {value === 1 && <TabContainer><Grid></Grid></TabContainer>}
         {value === 2 && <TabContainer><Dialogs></Dialogs></TabContainer>}
-        {value === 3 && <TabContainer>Button</TabContainer>}
+        {value === 3 && <TabContainer><Boton></Boton></TabContainer>}
         {value === 4 && <TabContainer><Cards></Cards></TabContainer>}
       </div>
     );
